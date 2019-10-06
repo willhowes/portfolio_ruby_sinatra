@@ -1,6 +1,9 @@
-.navbar {
+.bg-dark {
     font-family: 'Nanum Gothic', sans-serif !important;
-}
+    background-color: #343a40 !important;
+
+  }
+
 
 .middle-home-page {
   text-align:center;
