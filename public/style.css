@@ -1,29 +1,25 @@
-.navbar a{
+.navbar {
     font-family: 'Nanum Gothic', sans-serif !important;
 }
 
 .middle-home-page {
   text-align:center;
   margin: 60px;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: black;
 
 }
 
 .middle-home-page h1 {
   font-size: 50px;
-  font-family: 'Nanum Gothic', sans-serif;
-  color: black;
 }
 
 .middle-home-page h2 {
   font-size: 35px;
-  font-family: 'Nanum Gothic', sans-serif;
-  color: black;
 }
 
 .middle-home-page p {
   font-size: 14px;
-  font-family: 'Nanum Gothic', sans-serif;
-  color: black;
   margin: 20px;
 }
 
@@ -62,4 +58,40 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.projects {
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: 20px;
+}
+
+.projects h1{
+  padding: 1em;
+  font-size: 20px
+}
+
+.col-sm {
+  border: 1px solid black;
+}
+
+.contact p {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  color: black;
+  padding: 1em;
+}
+
+.contact i {
+  padding-right: 0.5em;
+  font-size: 30px;
+}
+
+a { color: inherit; }
+
+.contact {
+  text-align:center;
+  margin: 60px;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: black;
 }
