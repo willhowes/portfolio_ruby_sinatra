@@ -1,3 +1,12 @@
+body {
+    opacity: 1;
+    transition: 0.2s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
 .bg-dark {
     font-family: 'Nanum Gothic', sans-serif !important;
     background-color: #343a40 !important;

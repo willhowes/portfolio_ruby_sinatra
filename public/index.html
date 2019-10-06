@@ -16,12 +16,19 @@
     <title>Will Howes - Portfolio</title>
   </head>
   <body>
+    <script>document.body.className += ' fade-out';</script>
+    <script>
+      $(function() {
+      $('body').removeClass('fade-out');
+      });
+    </script>
+
     <div id="navbar"></div>
 
     <script>
-    $(function(){
-      $("#navbar").load("navbar.html");
-    });
+      $(function(){
+        $("#navbar").load("navbar.html");
+      });
     </script>
     <div class="home-page">
       <div class="container">
