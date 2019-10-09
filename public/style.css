@@ -18,7 +18,9 @@ body.fade-out {
   margin: 60px;
   font-family: 'Nanum Gothic', sans-serif;
   color: black;
-
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  padding: 50px;
 }
 
 .middle-home-page h1 {
